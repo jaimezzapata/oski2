@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -31,9 +26,11 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  --font-family-sans-serif: font-family: 'Roboto', sans-serif;
+  --font-family-monospace: font-family: 'Roboto', sans-serif;}
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *,
 *::before,
 *::after {
@@ -71,6 +68,10 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
+
+h2{
+  text-transform: uppercase;
+}
 
 p {
   margin-top: 0;
@@ -151,7 +152,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em; }
 
 pre {
@@ -8430,7 +8431,7 @@ h1, h2, h3, h4, h5,
     font-weight: normal;
     font-size: 60px;
     line-height: .8;
-    font-family: "Abril Fatface", cursive; }
+    font-family: 'Roboto', sans-serif; }
     @media (max-width: 1199.98px) {
       #colorlib-aside #colorlib-logo {
         font-size: 40px; } }
@@ -8696,7 +8697,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-about .text h2 {
   font-size: 40px;
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.2;
   color: #fff; }
   .ftco-about .text h2 span {
@@ -8787,7 +8788,7 @@ h1, h2, h3, h4, h5,
       font-size: 40px;
       display: inline-block;
       line-height: 1.3;
-      font-family: "Abril Fatface", cursive; }
+      font-family: 'Roboto', sans-serif; }
       @media (max-width: 767.98px) {
         .portfolio-wrap .text h2 {
           font-size: 9vw; } }
@@ -8846,7 +8847,7 @@ h1, h2, h3, h4, h5,
       font-size: 40px;
       display: inline-block;
       line-height: 1.3;
-      font-family: "Abril Fatface", cursive; }
+      font-family: 'Roboto', sans-serif; }
       @media (max-width: 767.98px) {
         .portfolio-wrap-2 .text h2 {
           font-size: 9vw; } }
@@ -8898,7 +8899,7 @@ h1, h2, h3, h4, h5,
 
 .single .img-single {
   width: 100%;
-  height: 1500px; }
+  height: 900px; }
   @media (max-width: 991.98px) {
     .single .img-single {
       height: 700px; } }
@@ -8907,7 +8908,7 @@ h1, h2, h3, h4, h5,
       height: 500px; } }
 
 .single h1 {
-  font-family: "Abril Fatface", cursive;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 50px; }
 
