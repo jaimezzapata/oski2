@@ -274,6 +274,25 @@ progress {
   gap: 20px;
 }
 
+.logoph{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.infologoph{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.infologoph h2{
+  font-size: 20px;
+}
+
+.infologoph span{
+  font-size: 15px;
+}
+
 .redes a {
   font-size: 30px;
 }
