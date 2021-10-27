@@ -269,6 +269,11 @@ legend {
 progress {
   vertical-align: baseline; }
 
+.redes{
+  display: flex;
+  gap: 10px;
+}
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -494,6 +499,7 @@ pre {
   margin-right: -15px;
   margin-left: -15px; }
 
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
@@ -521,6 +527,11 @@ pre {
   flex-grow: 1;
   min-width: 0;
   max-width: 100%; }
+
+  .info-uni{
+    display: flex;
+    flex-direction: column;
+  }
 
 .row-cols-1 > * {
   -webkit-box-flex: 0;
