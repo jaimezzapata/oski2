@@ -301,10 +301,8 @@ progress {
   filter: grayscale(100%);
 }
 
-.imgIndex:hover{
-  background-image: url(../images/arquitectura/Produccion1/1.png); 
+.imgIndex:hover{ 
   filter: grayscale(0%);
-  cursor: pointer;
 }
 
 [type="number"]::-webkit-inner-spin-button,
