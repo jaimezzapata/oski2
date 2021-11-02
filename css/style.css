@@ -285,6 +285,12 @@ progress {
 }
 
 .infologoph h2{
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.infologoph h4{
+  margin-top: -20px;
   font-size: 20px;
 }
 
@@ -8942,14 +8948,14 @@ h1, h2, h3, h4, h5,
     .single .img-single {
       height: 500px; } }
 
-      .single .img-singlevv {
+      .singlevv .img-singlevv {
         width: 100%;
         height: 1300px; }
         @media (max-width: 991.98px) {
-          .single .img-singlevv {
+          .singlevv .img-singlevv {
             height: 700px; } }
         @media (max-width: 767.98px) {
-          .single .img-singlevv {
+          .singlevv .img-singlevv {
             height: 500px; } }
 
       .singlev .img-singlev {
