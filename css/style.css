@@ -302,6 +302,13 @@ progress {
   font-size: 30px;
 }
 
+.informacionProdu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 20px;
+}
+
 .imgIndex{
   background-image: url(../images/arquitectura/Produccion1/1.png); 
   filter: grayscale(100%);
