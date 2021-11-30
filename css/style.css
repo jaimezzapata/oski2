@@ -284,6 +284,10 @@ progress {
   flex-direction: column;
 }
 
+.infologoph img {
+  width: 100px;
+}
+
 .infologoph h2{
   margin-top: -10px;
   font-size: 20px;
